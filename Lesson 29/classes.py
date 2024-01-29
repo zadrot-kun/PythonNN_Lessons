@@ -1,12 +1,12 @@
-import datetime
-from dateutil.relativedelta import relativedelta
+from datetime import datetime
+from  dateutil.relativedelta import relativedelta
 
 class Human():
     def __init__(self, year, month, day):
-        self.birthday = datetime.datetime(year, month, day)
+        self.birthday = datetime(year, month, day)
 
     def get_age(self):
-        return relativedelta(datetime.datetime.now(), self.birthday).years
+        return relativedelta(datetime.now(), self.birthday).years
 
 
 if __name__ == '__main__':
