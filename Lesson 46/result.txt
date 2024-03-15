@@ -1,0 +1,11 @@
+OS
+walk ('/home/artem/PycharmProjects/PythonNN_Lessons/Lesson 46', ['test_folder'], ['modiles.py', 'result.txt'])
+walk ('/home/artem/PycharmProjects/PythonNN_Lessons/Lesson 46/test_folder', ['test_folder'], [])
+walk ('/home/artem/PycharmProjects/PythonNN_Lessons/Lesson 46/test_folder/test_folder', [], ['test.py'])
+name posix
+----------------------------------------------------------------------------------------------------
+SYS
+Битность 1.0
+platform linux
+getrefcount 2
+argv ['modiles.py', 'ar']
